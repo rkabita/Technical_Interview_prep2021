@@ -1,0 +1,87 @@
+***********************************     The 4 Week Plan to Nailing Your Next Coding & Technical Interview     ************************************
+
+
+Technical interviews are tough. Especially when there are about a million different questions they can possibly pull on you — it can feel impossible to be well-prepared. 
+This guide aims to help you plan your review before your next big interview! While I am no expert on technical interviews, I’ve gone through this interview-prep process 
+twice each school year and have successfully gotten internship offers after interviews from both small and large companies. These questions are a mix of actual interview 
+questions I’ve seen and also what I personally think is important to review.
+
+
+Weekly Plan
+Type 1: Practicing Problems Everyday
+One way to break up review so that it is manageable is to set a consistent goal for each day. A simple, yet effective, approach is to do 1 easy and 1 medium problem each day & also 1 hard problem per each week. By the end of the month you will have finished 60 problems!
+Type 2: Cramming in on the weekend
+If we’re being realistic, most people don’t have the discipline to sit down for 2 hours each day for 4 weeks to review algorithms. What usually happens (for me anyway) is that I maybe spend about an hour per week day on review, and then cram for 10–12 hours on the weekend.
+In general, I interview prep for approx. 15 hours each week and I split up my questions such that 50% of them are ‘easy’, 40% of them are ‘medium’ and 10% of them are ‘hard’ questions for each topic. I find that if you are able to complete and understand >50 coding problems before your interview — you should be in good shape.
+Just remember…
+Do whatever works for you and your schedule — just make sure that you’re giving an honest effort. Set realistic goals for each week and keep track of your progress.
+When starting off, do not worry about being fast with coming up with your algorithms — understanding always comes first; speed will come naturally later on.
+
+
+
+Week 1 — Arrays and Strings
+
+Arrays and Strings are like the bread and butter of coding problems. While they are basic structures, they can easily get complicated and test you on more complex concepts.
+Goal for the week: get into the ‘algorithm’ mindset and feel comfortable with basic data structures. Refresh your memory on basic concepts like recursion/binary search and handling off-by-one errors.
+It’s likely you haven’t touched on these kinds of problems for a while so this week will mostly be for you to ‘ease’ into the next few weeks of technical review.
+
+
+5 highly suggested review questions (in order of difficulty)
+Valid Parenthesis
+Reverse Vowels in String
+Isomorphic Strings
+Longest Substring Without Repeating Characters
+Median of Two Sorted Arrays
+
+
+
+
+
+Week 2 — Binary Trees and Linked Lists
+
+Everyone in CS loves binary trees — I have no idea why. I also don’t know why the binary tree is also always upside down… but I guess that’s another discussion altogether.
+Goal for the week: start becoming critical of runtime and efficiency in your solutions. Understand BFS, DFS, & pros and cons of different approaches.
+Binary tree and linked list problems are not all that different from strings & arrays. Many of the concepts will overlap — the algorithms just change slightly since the behavior of these data structures have unique features.
+
+5 highly suggested review questions (in order of difficulty)
+Merge two sorted lists
+Balanced binary tree
+Palindrome linked lists
+Remove nth node from linked list
+Kth smallest element in BST
+
+
+
+
+Week 3 — Dynamic Programming & Greedy Algorithms | Focusing on Optimizations*
+
+This is where the fun stuff happens. These questions are usually thrown to test your critical thinking and understanding of time/space complexity.
+Goal for the week: start proactively challenging your own solutions and think of possible optimizations for either time or space. Be able to implement your solution both top-down (recursion & memoization) and bottom up (iteratively).
+Being a good engineer means being able to explain why one approach is better than another & also have the ability to implement it in clean code.
+
+5 highly suggested review questions (in order of difficulty)
+Climbing stairs
+Best time to buy and sell stock
+House robber
+Coin change
+Longest palindromic substring
+*There is a trend of companies now phasing out dynamic programming problems in their interviews as they can be seen as unfair if the interviewee doesn’t know the ‘trick’. In my opinion I believe that DP problems are still a great way to review and improve algorithmic thinking, so as long as you’re ‘focusing on optimizations’ this week you should be covered!
+
+
+
+
+
+Week 4 — More Graphs & Final Review
+
+At this point you’ve covered basically 90% of what they will likely ask you. It’s important for you to review hard questions you encountered & go back to redo any problem may have gotten stuck on.
+Goal for the week: review, review, and review all the concepts! Start doing mock interviews, timing yourself, and practice talking out loud when doing the problems.
+While graphs are sometimes asked during interviews, I believe you can get by with just knowing the basic graph search algorithms.
+Here’s a great guide to graphs & the terminology: https://www.interviewcake.com/concept/python/graph?
+
+And here are some extra general questions for review
+Validate BST
+Rotate Image
+Course Schedule
+Delete Node BST
+Merge Intervals
+
