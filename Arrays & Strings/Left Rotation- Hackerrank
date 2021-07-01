@@ -1,0 +1,26 @@
+## Python 
+
+def rotateLeft(d, arr):
+    # Write your code here
+    a = list(arr)
+    
+    return a[d:] + a[:d];
+    
+    
+    
+    
+## C++
+
+vector<int> rotateLeft(int d, vector<int> arr) {
+
+    int n = arr.size();
+    vector <int> new_arr(n);
+    
+    for(int i = 0; i < n ; i++) {
+        int p = (i-d+n)%n; 
+        new_arr[p] = arr[i];                
+    }
+    
+    return new_arr; 
+    
+}
