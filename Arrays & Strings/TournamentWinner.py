@@ -1,3 +1,5 @@
+############ AlGO Expert #######################
+
 HOME_TEAM_WON = 1
 def updateScore(team, points, scores):
 	if team not in scores:
