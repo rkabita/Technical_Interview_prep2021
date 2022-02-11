@@ -30,3 +30,21 @@ def subarray_sum(k, arr):
       windowSum -= arr[windowStart]
       windowStart += 1
   return result
+
+# Time complexity: O(N + K) || N = initial array size, K = result array size
+# Space complexity: O(K) || To store the result array
+
+
+# We can approach this problem a litle bit differently without storing all the array sum. In this way we will keep track of the Maximum Sum as we go.
+# This approach will minimize the space complexity. 
+
+
+def max_sub_array_of_size_k(k, arr):
+  # TODO: Write your code here
+  result = subarray_sum(k, arr)
+  max = result[0]
+  for i in range(len(result)):
+    if max < result[i]:
+      max = result[i]
+  return max
+
